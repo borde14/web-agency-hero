@@ -1,0 +1,66 @@
+body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* <uniquifier>: Use a unique and descriptive class name
+   <weight>: Use a value from 300 to 800
+   <width>: Use a value from 75 to 100 */
+
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+} */
+
+.hero {
+    background-image: url("img/faded-office.png");
+    background-size: cover;
+    padding: 60px 0px 0px 50px;
+    width: 1000px;
+    text-align: left;
+    margin: 0px 0px;
+    color: #020202;
+}
+
+h1 {
+    font-family: "Open Sans", serif;
+    font-size: 70px;
+    font-variation-settings: "wdth" 75;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-right: 580px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-variation-settings: "wdth" 75;
+    margin-right: 650px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.underline {
+    border-bottom: 2px solid #0ea5e9;
+}
+
+button {
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 140px;
+    margin-left: 30px;
+}
